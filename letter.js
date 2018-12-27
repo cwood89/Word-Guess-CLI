@@ -1,12 +1,12 @@
 function Letter(lett, input) {
-    this.lett;
+    this.lett = lett;
     this.isGuessed;
     this.show = function () {
         if (!this.isGuessed) {
             this.lett = "_";
         } else {
             this.lett = lett;
-        };
+        }
     };
     this.check = function () {
         if (input === lett) {
@@ -15,6 +15,6 @@ function Letter(lett, input) {
             this.isGuessed = false;
         }
     };
-};
+}
 
 module.exports = Letter;

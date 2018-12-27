@@ -6,9 +6,9 @@ function Word(word, lett) {
     this.wordArr = [];
     this.letters = function () {
         for (var i = 0; i < this.word.length; i++) {
-            let letterObj = new letter(this.word[i], lett);
+            var letterObj = new letter(this.word[i], lett);
             this.letterArr.push(letterObj);
-        };
+        }
     };
     this.display = function () {
         this.letters();
@@ -17,8 +17,8 @@ function Word(word, lett) {
             this.letterArr[i].show();
             var letterRes = this.letterArr[i].lett;
             this.wordArr.push(letterRes);
-        };
+        }
     };
-};
+}
 
 module.exports = Word;

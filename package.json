@@ -1,7 +1,7 @@
 {
   "name": "Word-Guess-CLI",
   "version": "1.0.0",
-  "description": "",
+  "description": "The perfect game for when you're bored at work and need somethig to pass the time.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cwood89/Word-Guess-CLI#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "inquirer": "^6.2.1"
+    "inquirer": "^6.2.1",
+    "rx": "^4.1.0"
   }
 }
